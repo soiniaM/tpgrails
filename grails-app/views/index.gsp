@@ -11,14 +11,14 @@
             <ul class="dropdown-menu">
 
                 <li> <g:link  controller="User" action="Create">Ajouter un utilisateur</g:link></li>
-                <li> <g:link  controller="User" action="index">Liste/Rechercher des utilisateurs</g:link></li>
+                <li><a href="/user/index">Liste/Rechercher des utilisateurs</a> </li>
             </ul>
         </li>
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gestion des Annonces <span class="caret"></span></a>
             <ul class="dropdown-menu">
                 <li> <g:link  controller="SaleAd" action="Create">Ajouter une annonce</g:link></li>
-                <li> <g:link  controller="SaleAd" action="index">Liste/Rechercher des annonces</g:link></li>
+                <li> <a href="/user/index">Liste/Rechercher des annonces</a></li>
 
             </ul>
         </li>
